@@ -1,51 +1,51 @@
 #### **Scene 1.1**
 
-1. **What does AI-assisted data summarization actually produce, in the strict sense?**  
-   a) A verified, audited report that a compliance team has already signed off on  
-   b) A live connection to your company's database that refreshes every second  
-   c) A plain-language description of what a dataset shows, generated from the table it was given  
-   d) A guarantee that every number quoted is statistically significant  
+1. **What does AI-assisted data summarization produce?**  
+   a) An audited compliance report  
+   b) A live database connection  
+   c) A plain-language description of the data  
+   d) A statistical significance guarantee  
 
-   **Answer:** c) A plain-language description of what a dataset shows, generated from the table it was given  
+   **Answer:** c) A plain-language description of the data  
 
-   **Explanation:** AI-assisted summarization turns structured data into a plain-language description. It is not an audit, not a live database connection, and it carries no built-in guarantee of statistical significance.
+   **Explanation:** It turns structured data into a plain-language description — not an audit, a live feed, or a significance guarantee.
 
-2. **A teammate is about to paste an entire 20,000-row raw export into a chat tool and ask "summarize this." What should they do first?**  
-   a) Shrink the data to the question first: group, count, or average down to a small, clean table  
-   b) Nothing — more raw rows always make the AI's summary more accurate  
-   c) Ask the AI to invent a plausible-sounding summary without seeing any data at all  
-   d) Delete the column headers so the AI is not biased by their labels  
+2. **Before pasting a 20,000-row export into AI, what should you do first?**  
+   a) Shrink it into a small, clean table  
+   b) Nothing — more rows help  
+   c) Ask AI to guess without data  
+   d) Delete the column headers  
 
-   **Answer:** a) Shrink the data to the question first: group, count, or average down to a small, clean table  
+   **Answer:** a) Shrink it into a small, clean table  
 
-   **Explanation:** A good analyst shrinks data to the question before prompting — a small, clean, aggregated table produces a more useful and checkable summary than a raw dump of thousands of rows.
+   **Explanation:** A good analyst shrinks data to the question first — a small, clean table beats a raw dump.
 
-3. **Which three elements must a complete data summary report, according to this lesson?**  
-   a) The file size, the column count, and the name of the person who exported it  
-   b) A prediction of next month's numbers, a risk score, and a marketing slogan  
-   c) The AI model's name, its training date, and its token limit  
-   d) Overall performance, the macro pattern, and any anomalous data points  
+3. **A complete data summary must report which three things?**  
+   a) File size, column count, exporter's name  
+   b) A prediction, a risk score, a slogan  
+   c) The AI model's name and training date  
+   d) Overall performance, macro pattern, anomalies  
 
-   **Answer:** d) Overall performance, the macro pattern, and any anomalous data points  
+   **Answer:** d) Overall performance, macro pattern, anomalies  
 
-   **Explanation:** A strong summary states the headline number, describes whether the overall trend is flat/rising/falling, and flags anything that breaks that pattern. The other options are not summary content at all.
+   **Explanation:** Headline number, the overall trend shape, and anything that breaks that pattern.
 
-4. **A canteen's daily footfall averages 120 people, typically ranging between 100 and 140. One Friday it hits 250. The next Monday it hits 128. Which of these is the real anomaly worth flagging to the AI as unusual?**  
-   a) Both the Friday and the Monday numbers are equally unusual  
-   b) Only the Friday number (250), because it sits far outside the normal 100–140 range  
-   c) Only the Monday number (128), because it is a round-ish figure  
-   d) Neither — footfall figures are never worth flagging  
+4. **Daily footfall averages 120 (range 100–140). Friday hits 250; Monday hits 128. Which is the real anomaly?**  
+   a) Both are unusual  
+   b) Only Friday (250)  
+   c) Only Monday (128)  
+   d) Neither  
 
-   **Answer:** b) Only the Friday number (250), because it sits far outside the normal 100–140 range  
+   **Answer:** b) Only Friday (250)  
 
-   **Explanation:** 128 is well within the normal day-to-day range and is not a real anomaly. 250 sits far outside the typical band and is the point worth a second look — exactly the same reasoning used to catch a real spike day in a signup trend.
+   **Explanation:** 128 sits inside the normal range; 250 sits far outside it and is the one worth flagging.
 
-5. **An AI is given a table showing Product A at 70% customer satisfaction and Product B at 40%. It replies: "Product A clearly satisfies customers, and Product B should be discontinued immediately." Which part of that reply goes beyond what the table can support?**  
-   a) Recommending Product B be discontinued immediately, based on satisfaction alone  
-   b) Stating that Product A's satisfaction score is 70%  
-   c) Stating that Product B's satisfaction score is 40%  
-   d) Nothing — the whole reply is fully supported by the table  
+5. **AI sees Product A at 70% satisfaction, B at 40%, and says "discontinue B immediately." What goes beyond the data?**  
+   a) The discontinue recommendation  
+   b) Stating A's score is 70%  
+   c) Stating B's score is 40%  
+   d) Nothing goes beyond the data  
 
-   **Answer:** a) Recommending Product B be discontinued immediately, based on satisfaction alone  
+   **Answer:** a) The discontinue recommendation  
 
-   **Explanation:** The two percentages are accurate restatements of the table. A discontinue-the-product decision needs more than one satisfaction number — cost, revenue, and sample size are not in this table, so that recommendation goes beyond what the data can prove.
+   **Explanation:** The two percentages are accurate; a discontinue decision needs more than one satisfaction number.

@@ -1,31 +1,31 @@
 #### **Scene 2.2**
 
-1. **Which prompt is most likely to surface a specific, actionable finding?**  
-   a) "Rank these five stores by return rate and tell me the size of the gap between the highest and lowest."  
+1. **Which prompt is most actionable?**  
+   a) "Rank these 5 stores by return rate; how big is the gap?"  
    b) "What do you think of this data?"  
    c) "Give me some insights."  
    d) "Explain everything about retail."  
 
-   **Answer:** a) "Rank these five stores by return rate and tell me the size of the gap between the highest and lowest."  
+   **Answer:** a) "Rank these 5 stores by return rate; how big is the gap?"  
 
-   **Explanation:** Naming the exact comparison and asking for a measurable gap is what makes a query targeted — the other three are too open-ended to produce something you can act on directly.
+   **Explanation:** Naming the exact comparison and asking for a measurable gap makes it actionable.
 
-2. **After an AI answers "Team A had the most support tickets last month," what is the best guided follow-up?**  
-   a) Immediately move to an unrelated question about a different dataset  
-   b) Repeat the exact same question a second time  
-   c) "Which specific issue type made up most of Team A's tickets?"  
-   d) Ask the AI to stop analyzing and just guess  
+2. **AI says "Team A had the most tickets." What's the best follow-up?**  
+   a) Ask an unrelated question  
+   b) Repeat the same question  
+   c) "Which issue type made up most of Team A's tickets?"  
+   d) Ask AI to just guess  
 
-   **Answer:** c) "Which specific issue type made up most of Team A's tickets?"  
+   **Answer:** c) "Which issue type made up most of Team A's tickets?"  
 
-   **Explanation:** A guided follow-up builds directly on the previous answer, narrowing toward a more specific and useful finding — this is the EDA-style prompt-chaining habit from the lesson.
+   **Explanation:** A good follow-up narrows toward a more specific finding, building on the last answer.
 
-3. **A single unusually high sales day appears once in ninety days of otherwise steady data. What is the appropriate response?**  
-   a) Immediately declare it the new normal and update all future forecasts  
-   b) Delete that day's data so it does not confuse the AI  
-   c) Assume the AI invented the number and ignore the entire dataset  
-   d) Note it as a single point worth watching, not yet a proven trend  
+3. **One unusually high sales day appears in 90 days of steady data. What should you do?**  
+   a) Declare it the new normal  
+   b) Delete that day's data  
+   c) Assume AI invented it and ignore everything  
+   d) Note it, but don't treat it as a trend yet  
 
-   **Answer:** d) Note it as a single point worth watching, not yet a proven trend  
+   **Answer:** d) Note it, but don't treat it as a trend yet  
 
-   **Explanation:** One unusual day is exactly what noise looks like — it deserves a note and a watch for repetition, not an immediate change in strategy based on a single data point.
+   **Explanation:** One unusual day is what noise looks like — watch for repetition before acting on it.
